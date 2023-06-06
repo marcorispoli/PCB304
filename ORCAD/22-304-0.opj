@@ -1,190 +1,194 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[05/05/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
-    ("Allegro Netlist Directory" "allegro")
     (File ".\22-304-0.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    (DOCKED "TRUE")
-    (DOCKING_POSITION "59420")
     (NoModify)
-    (Display_Online_DRC_Results "FALSE")
-    (ANNOTATE_Scope "0")
-    (ANNOTATE_Mode "1")
-    (ANNOTATE_Action "0")
-    (Annotate_Page_Order "0")
-    (ANNOTATE_Reset_References_to_1 "FALSE")
-    (ANNOTATE_No_Page_Number_Change "FALSE")
-    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
-    (ANNOTATE_IncludeNonPrimitive "FALSE")
-    (ANNOTATE_PreserveDesignator "FALSE")
-    (ANNOTATE_PreserveUserEdits "FALSE")
-    (ANNOTATE_Refdes_Control_Required "FALSE")
-    (Update_Instace_for_External_Design "FALSE")
-    (Annotate_type "Default")
-    (width_pages "100")
-    (width_start "80")
-    (width_End "80"))
-  (Folder "Layout")
-  (Folder "Outputs")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "TRUE")
+    (DRC_Preserved_Waived "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "FALSE")
+    (DRC_Report_File
+       "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-304-0\22-304-0.DRC")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Run_Electrical_Custom_DRC "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    (Netlist_TAB "3")
+    (LAYOUT_Netlist_File "22-304-0.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (FALSE)
+    (LAYOUT_Units "0")
+    (FALSE)
+    (FALSE)
+    (FALSE)
+    (FALSE)
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-304-0\22-304-0.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Descrizione}\t{Value}\t{PN Costruttore}\t{Codice Acquisto Fornitore}\t{Costruttore}\t{PACKAGE}\t{PCB Footprint}\t{NOTE}")
+    (BOM_Header
+       "Pos.\tQtà\tRif\tDescrizione\tValue\tPN Costruttore\tPN Fornitore\tCostruttore\tPackage\tPcbFootprint\tNote")
+    (BOM_Include_File
+       "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-304-0\22-304-0.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Outputs"
+    (File ".\22-304-0.drc"
+      (Type "Report"))
+    (File ".\22-304-0.mnl"
+      (Type "LAYOUT Netlist File"))
+    (File ".\22-304-0.bom"
+      (Type "Report")))
   (Folder "Referenced Projects")
-  (Folder "PSpice Resources"
-    (Folder "Simulation Profiles")
-    (Folder "Model Libraries"
-      (Sort User))
-    (Folder "Stimulus Files"
-      (Sort User))
-    (Folder "Include Files"
-      (Sort User)))
-  (Folder "Logs")
-  (PartMRUSelector
-    (AMP-CT-6-VERTICALE
-      (FullPartName "AMP-CT-6-VERTICALE.Normal")
-      (LibraryName
-         "C:\USERS\MARCO\DOCUMENTS\DATA\ORCAD\CAPTURE_LIB\APPROVED\CONNECTORS.OLB")
-      (DeviceIndex "0"))
-    (GND_POWER
-      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (AMP-CT-3-VERTICALE
-      (FullPartName "AMP-CT-3-VERTICALE.Normal")
-      (LibraryName
-         "C:\USERS\MARCO\DOCUMENTS\DATA\ORCAD\CAPTURE_LIB\APPROVED\CONNECTORS.OLB")
-      (DeviceIndex "0"))
-    (AMP-CT-2-VERTICALE
-      (FullPartName "AMP-CT-2-VERTICALE.Normal")
-      (LibraryName
-         "C:\USERS\MARCO\DOCUMENTS\DATA\ORCAD\CAPTURE_LIB\PENDING\CONNECTORS.OLB")
-      (DeviceIndex "0"))
-    (B3B-PH-3x1-VERTICALE
-      (FullPartName "B3B-PH-3x1-VERTICALE.Normal")
-      (LibraryName
-         "C:\USERS\MARCO\DOCUMENTS\DATA\ORCAD\CAPTURE_LIB\APPROVED\CONNECTORS.OLB")
-      (DeviceIndex "0"))
-    (MCP6002
-      (FullPartName "MCP6002A.Normal")
-      (LibraryName
-         "C:\USERS\MARCO\DOCUMENTS\DATA\ORCAD\CAPTURE_LIB\APPROVED\OPAMPS.OLB")
-      (DeviceIndex "0")))
-  (MPSSessionName "marco")
+  (PartMRUSelector)
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-304\orcad\22-304-0.dsn")
-      (Path "Design Resources"
-         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-304\orcad\22-304-0.dsn"
-         "SCHEMATIC1")
-      (Select "Design Resources"
-         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-304\orcad\22-304-0.dsn"))
+      (Path "Design Resources" ".\22-304-0.dsn")
+      (Path "Design Resources" ".\22-304-0.dsn" "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources" ".\22-304-0.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 320 0 405"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 375 0 555"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 821 24 423")
-        (Scroll "0 21")
-        (Zoom "132")
+        (Placement "44 0 1 -1 -1 -8 -31 26 1613 26 598")
+        (Scroll "0 406")
+        (Zoom "200")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\22-304-0.DSN")
+      (Path "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-304-0\22-304-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "uC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1665 78 650")
+        (Scroll "-185 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-304-0\22-304-0.DSN")
       (Schematic "SCHEMATIC1")
       (Page "MAGNIFIER"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 821 24 423")
-        (Scroll "140 212")
-        (Zoom "102")
+        (Placement "44 0 1 -1 -1 -8 -31 104 1691 104 676")
+        (Scroll "-185 0")
+        (Zoom "100")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\22-304-0.DSN")
+      (Path "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-304-0\22-304-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "POWER"))
+      (Page "OPTO"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 821 24 423")
-        (Scroll "0 66")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -8 -31 104 1691 104 676")
+        (Scroll "-226 0")
+        (Zoom "112")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\22-304-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "TEST_BUTTON"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 821 24 423")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\22-304-0.DSN")
+      (Path "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-304-0\22-304-0.DSN")
       (Schematic "SCHEMATIC1")
       (Page "BUS SIGNALS"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 821 24 423")
-        (Scroll "0 0")
+        (Placement "44 0 1 -1 -1 -8 -31 130 1717 130 702")
+        (Scroll "-185 0")
         (Zoom "100")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\22-304-0.DSN")
+      (Path "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-304-0\22-304-0.DSN")
       (Schematic "SCHEMATIC1")
       (Page "CAN-BUS"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 821 24 423")
-        (Scroll "0 0")
+        (Placement "44 0 1 -1 -1 -8 -31 156 1743 156 728")
+        (Scroll "-185 0")
         (Zoom "100")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\22-304-0.DSN")
+      (Path "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-304-0\22-304-0.DSN")
       (Schematic "SCHEMATIC1")
       (Page "DISPLAY"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 821 24 423")
-        (Scroll "0 0")
+        (Placement "44 0 1 -1 -1 -8 -31 182 1769 182 754")
+        (Scroll "-185 0")
         (Zoom "100")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\22-304-0.DSN")
+      (Path "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-304-0\22-304-0.DSN")
       (Schematic "SCHEMATIC1")
       (Page "GRID MOTOR"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 821 24 423")
-        (Scroll "0 0")
+        (Placement "44 0 1 -1 -1 -8 -31 208 1795 208 780")
+        (Scroll "-185 0")
         (Zoom "100")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\22-304-0.DSN")
+      (Path "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-304-0\22-304-0.DSN")
       (Schematic "SCHEMATIC1")
       (Page "GRID REMOVAL MOTOR"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 821 24 423")
-        (Scroll "0 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -8 -31 234 1821 234 806")
+        (Scroll "-226 0")
+        (Zoom "112")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\22-304-0.DSN")
+      (Path "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-304-0\22-304-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "uC")))
-  (LastUsedLibraryBrowseDirectory
-     "C:\Users\marco\Documents\Data\ORCAD\CAPTURE_LIB\Pending"))
+      (Page "POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 260 1847 260 832")
+        (Scroll "-226 0")
+        (Zoom "112")
+        (Occurrence "/"))
+      (Path "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-304-0\22-304-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "TEST_BUTTON")))
+  (MPSSessionName "Osvy")
+  (ISPCBBASICLICENSE "false"))
