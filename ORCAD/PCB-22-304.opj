@@ -1,0 +1,112 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[04/17/24]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (File ".\pcb-22-304.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (Display_Online_DRC_Results "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector)
+  (MPSSessionName "marco")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-304\orcad\pcb-22-304.dsn")
+      (Path "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-304\orcad\pcb-22-304.dsn"
+         "SCHEMATIC1")
+      (Select "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-304\orcad\pcb-22-304.dsn"
+         "SCHEMATIC1" "POWER"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 888"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1387 24 929")
+        (Scroll "-67 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\PCB-22-304.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "uC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1387 24 929")
+        (Scroll "-67 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\PCB-22-304.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "DISPLAY"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1387 24 929")
+        (Scroll "-67 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\PCB-22-304.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "GRID REMOVAL MOTOR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1387 24 929")
+        (Scroll "-98 -8")
+        (Zoom "119")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\PCB-22-304.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1387 24 929")
+        (Scroll "-98 -8")
+        (Zoom "119")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\PCB-22-304.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "SLAVE MOTOR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1387 24 929")
+        (Scroll "-98 -8")
+        (Zoom "119")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\PCB-22-304.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "SLAVE_INTERFACE"))))
