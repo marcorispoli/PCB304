@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[05/06/24]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[05/09/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -32,7 +32,8 @@
     (Open_BOM_in_Excel "TRUE")
     (BOM_View_Output "FALSE")
     (DOCKED "TRUE")
-    (DOCKING_POSITION "59420"))
+    (DOCKING_POSITION "59420")
+    (Display_Online_DRC_Results "FALSE"))
   (Folder "Layout")
   (Folder "Outputs"
     (File ".\22-304-1.mnl"
@@ -47,7 +48,7 @@
       (Path "Design Resources" ".\22-304-1.dsn")
       (Path "Design Resources" ".\22-304-1.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" ".\22-304-1.dsn" "SCHEMATIC1" "CAN-BUS"))
+      (Select "Design Resources" ".\22-304-1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -57,13 +58,14 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1387 24 631")
-        (Scroll "-90 40")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1101 24 929")
+        (Scroll "-3 -44")
+        (Zoom "109")
         (Occurrence "/"))
-      (Path "C:\USERS\MARCO\DESKTOP\TMP\PCB-304-1\22-304-1.DSN")
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\22-304-1.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "CAN-BUS")))
+      (Page "POWER")))
   (ISPCBBASICLICENSE "false")
   (MPSSessionName "marco")
   (Folder "PSpice Resources"
