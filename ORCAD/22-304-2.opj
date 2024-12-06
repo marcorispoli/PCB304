@@ -1,0 +1,123 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[12/06/24]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (File ".\22-304-2.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (Display_Online_DRC_Results "FALSE")
+    (ANNOTATE_Scope "1")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "2")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector)
+  (MPSSessionName "marco")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\22-304-2.dsn")
+      (Path "Design Resources" ".\22-304-2.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\22-304-2.dsn" "SCHEMATIC1" "DISPLAY"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 383 0 888"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1332 24 929")
+        (Scroll "-70 -8")
+        (Zoom "119")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\22-304-2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "INPUT"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1332 24 929")
+        (Scroll "-39 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\22-304-2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "GRID REMOVAL MOTOR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1332 24 929")
+        (Scroll "-51 0")
+        (Zoom "123")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\22-304-2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "GRID_CONTROL_SIGNALS"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1332 24 929")
+        (Scroll "-39 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\22-304-2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "uC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1332 24 929")
+        (Scroll "-22 0")
+        (Zoom "107")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\22-304-2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "DISPLAY"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1332 24 929")
+        (Scroll "-39 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\22-304-2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CAN-BUS"))))
