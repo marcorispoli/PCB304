@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[12/06/24]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[12/09/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -41,25 +41,45 @@
     (Folder "Include Files"
       (Sort User)))
   (Folder "Logs")
-  (PartMRUSelector)
+  (PartMRUSelector
+    ("HEADER 12X2"
+      (FullPartName "HEADER 12X2.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 8X2"
+      (FullPartName "HEADER 8X2.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0")))
   (MPSSessionName "marco")
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\22-304-2.dsn")
       (Path "Design Resources" ".\22-304-2.dsn" "SCHEMATIC1")
-      (Select "Design Resources" ".\22-304-2.dsn" "SCHEMATIC1" "DISPLAY"))
+      (Select "Design Resources" ".\22-304-2.dsn" "SCHEMATIC1"
+         "DETECTOR_INTERFACE"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 383 0 888"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 468 0 888"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1332 24 929")
-        (Scroll "-70 -8")
+        (Placement "44 0 1 -1 -1 0 0 5 1289 24 929")
+        (Scroll "0 0")
+        (Zoom "107")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\22-304-2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "BIOPSY_INTERFACE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1289 24 929")
+        (Scroll "-49 -8")
         (Zoom "119")
         (Occurrence "/"))
       (Path
@@ -69,55 +89,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1332 24 929")
-        (Scroll "-39 -7")
-        (Zoom "104")
+        (Placement "44 0 1 -1 -1 0 0 5 1289 24 929")
+        (Scroll "-6 0")
+        (Zoom "106")
         (Occurrence "/"))
       (Path
          "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\22-304-2.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "GRID REMOVAL MOTOR"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1332 24 929")
-        (Scroll "-51 0")
-        (Zoom "123")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\22-304-2.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "GRID_CONTROL_SIGNALS"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1332 24 929")
-        (Scroll "-39 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\22-304-2.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "uC"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1332 24 929")
-        (Scroll "-22 0")
-        (Zoom "107")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\22-304-2.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "DISPLAY"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1332 24 929")
-        (Scroll "-39 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-304\ORCAD\22-304-2.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "CAN-BUS"))))
+      (Page "DETECTOR_INTERFACE")))
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.4\tools\capture\library"))
