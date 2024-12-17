@@ -1,0 +1,61 @@
+Date and Time : 12/17/24 12:33:55
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: 22-304-2 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+#1 ERROR(ORCAP-36071): Illegal character "Dot(.)" found in "PCB Footprint" property for component instance U1A: SCHEMATIC1, BIOPSY_INTERFACE (101.60, 109.22) .
+#2 ERROR(ORCAP-36071): Illegal character "Dot(.)" found in "PCB Footprint" property for component instance U1B: SCHEMATIC1, BIOPSY_INTERFACE (200.66, 104.14) .
+#3 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U28: SCHEMATIC1, INPUT (2.60, 5.70).
+#4 ERROR(ORCAP-36071): Illegal character "Dot(.)" found in "PCB Footprint" property for component instance U36: SCHEMATIC1, uC (50.80, 58.42) .
+#5 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J5: SCHEMATIC1, DETECTOR_INTERFACE (248.92, 83.82).
+#6 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J1: SCHEMATIC1, BIOPSY_INTERFACE (139.70, 27.94).
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U27,VOUT  VOUT  5V
+                    SCHEMATIC1, INPUT  (2.80, 4.50) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U26,VOUT  VOUT  3V3
+                    SCHEMATIC1, INPUT  (2.80, 3.00) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U25,VOUT  VOUT  9V
+                    SCHEMATIC1, INPUT  (3.90, 1.00) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U28,VOUT  VOUT  5VEXT
+                    SCHEMATIC1, INPUT  (3.60, 5.80) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------
