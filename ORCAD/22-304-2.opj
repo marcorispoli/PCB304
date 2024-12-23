@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[12/20/24]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[12/23/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -123,6 +123,6 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 411 0 911"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 366 0 911"))
       (Tab 0)))
   (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.4\tools\capture\library"))
