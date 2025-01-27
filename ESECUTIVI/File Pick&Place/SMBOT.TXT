@@ -1,27 +1,14 @@
 *************************************************************
 *                                                           *
-* Component List (Generic)                                  *
+* Surface Mount Bottom Report                               *
 *                                                           *
 * D:\00.LAVORI IN CORSO\METALTRONICA\22-304-2\22-304-2.MAX  *
 * Fri Jan 24 15:30:01 2025                                  *
 *                                                           *
 *************************************************************
 
- REF DES    VALUE            PACKAGE          FOOTPRINT                      X LOC      Y LOC      ROTATION
+ REF DES    VALUE            PACKAGE          FOOTPRINT                      X INSERT   Y INSERT   ROTATION
 ------------------------------------------------------------------------------------------------------------
-301                                          MH3.2_K10                       0.00 mm    0.00 mm   0       
-302                                          MH3.2_K10                       40.00 mm   -12.00 mm 0       
-303                                          MH3.2_K10                       23.00 mm   -114.00.. 0       
-304                                          MH3.2_K10                       94.80 mm   -29.00 mm 0       
-305                                          MH3.2_K10                       134.80 mm  -29.00 mm 0       
-306                                          MH3.2_K10                       134.80 mm  56.00 mm  0       
-307                                          MH3.2_K10                       99.80 mm   56.00 mm  0       
-308                                          MH3.2_K10                       102.30 mm  88.00 mm  0       
-309                                          MH3.2_K10                       32.50 mm   88.00 mm  0       
-310                                          MH3.2_K10                       20.00 mm   41.00 mm  0       
-311                                          02.RIF-MONT-SMD                 137.16 mm  -21.59 mm 0       
-312                                          02.RIF-MONT-SMD                 40.64 mm   -116.84.. 0       
-313                                          02.RIF-MONT-SMD                 31.75 mm   95.25 mm  0       
 314                                          02.RIF-MONT-SMD                 31.75 mm   95.25 mm  0       
 315                                          02.RIF-MONT-SMD                 125.73 mm  -31.75 mm 0       
 316                                          02.RIF-MONT-SMD                 40.64 mm   -116.84.. 0       
@@ -32,7 +19,6 @@ C4         68pF             C                SMD0603                         39.
 C5         68pF             C                SMD0603                         39.37 mm   60.96 mm  90      
 C6         68pF             C                SMD0603                         42.55 mm   54.61 mm  270     
 C7         68pF             C                SMD0603                         41.28 mm   60.96 mm  90      
-C8         100nF            C                SMD0603                         66.04 mm   56.52 mm  90      
 C9         100nF            C                SMD0603                         60.96 mm   69.85 mm  90      
 C10        100nF            C                SMD0603                         75.57 mm   66.68 mm  270     
 C11        100nF            C                SMD0603                         50.80 mm   69.85 mm  90      
@@ -77,21 +63,14 @@ C50        22pF             C                SMD0603                         18.
 C51        22pF             C                SMD0603                         16.51 mm   7.62 mm   270     
 D1         1N4148WT         DIODE_1          SOD523F1-2                      38.74 mm   91.44 mm  270     
 D2         1N4148WT         DIODE_1          SOD523F1-2                      46.36 mm   83.82 mm  90      
-D3         1N4148WT         DIODE_1          SOD523F1-2                      81.28 mm   59.69 mm  90      
 D4         1N4148WT         DIODE_1          SOD523F1-2                      51.44 mm   91.44 mm  270     
-D5         1N4148WT         DIODE_1          SOD523F1-2                      71.76 mm   62.87 mm  270     
-D6         1N4148WT         DIODE_1          SOD523F1-2                      58.42 mm   63.50 mm  270     
-D7         1N4148WT         DIODE_1          SOD523F1-2                      88.27 mm   62.87 mm  270     
-D8         1N4148WT         DIODE_1          SOD523F1-2                      49.53 mm   66.68 mm  270     
 D9         BAT721A,215      BAT721A          SOT23-123                       24.13 mm   56.52 mm  90      
 D10        1N4148WT         D_1              SOD523F1-2                      19.05 mm   22.23 mm  180     
 D11        1N4148WT         D_1              SOD523F1-2                      19.05 mm   24.13 mm  180     
 D12        1N4148WT         DIODE_1          SOD523F1-2                      119.38 mm  53.34 mm  90      
-D13        1N4148WT         DIODE_1          SOD523F1-2                      100.97 mm  67.95 mm  90      
 D14        1N4148WT         DIODE_1          SOD523F1-2                      111.13 mm  57.79 mm  270     
 D15        1N4148WT         DIODE_1          SOD523F1-2                      117.48 mm  57.79 mm  270     
 D16        1N4148WT         DIODE_1          SOD523F1-2                      124.46 mm  31.75 mm  90      
-D17        1N4148WT         DIODE_1          SOD523F1-2                      94.62 mm   67.95 mm  90      
 D18        1N4148WT         DIODE_1          SOD523F1-2                      112.40 mm  57.79 mm  270     
 D19        SD05-01FTG       SD05-01FTG       SOD323_1_2                      33.66 mm   -105.41.. 270     
 D20        SD05-01FTG       SD05-01FTG       SOD323_1_2                      29.85 mm   -105.41.. 270     
@@ -106,30 +85,10 @@ DL7        GIALLO           LED_1            LED0805-MET-12                  31.
 DL8        GIALLO           LED_1            LED0805-MET-12                  29.85 mm   -27.31 mm 270     
 DL9        GIALLO           LED_1            LED0805-MET-12                  27.94 mm   -27.31 mm 270     
 F1         154 005T         FUSE1-2          LITTELFUSE-154                  38.10 mm   43.82 mm  0       
-FLT1       BNX012-01        BNX002_1         BNX012-01-MURATA_NEW            37.47 mm   34.93 mm  0       
 FR2        500mA            SMD030F-2_2      SMD050F_TYCO                    10.16 mm   57.15 mm  180     
-J1         TST-108-03-L-D   HEADER_8X2       TST-108-03-L-D                  58.42 mm   92.71 mm  180     
-J2         NANO-FIT 10531.. HEADER_5X2_6     1053102208-MOLEX                79.38 mm   76.27 mm  180     
-J3         NANO-FIT 10531.. HEADER_5X2_5     1053102210-MOLEX                49.53 mm   76.27 mm  180     
-J4         NANO-FIT 10531.. HEADER_5X2_7     1053102214-MOLEX                78.74 mm   38.10 mm  180     
-J5         EHF-113-01-L-D.. HEADER_12X2_0    EHF-113-01-L-D-SM-LC-P          62.87 mm   46.36 mm  180     
-J6         292171-3         HEADER-3         292171-3-TE                     96.22 mm   39.03 mm  180     
-J7         i-Button         DS9094FS         DS9094FS-DALLAS                 108.58 mm  20.95 mm  90      
-J8         NANO-FIT 10531.. HEADER_5X2_1     1053102212-MOLEX                1.27 mm    48.90 mm  90      
-J9         292161-4         AMP-CT-2-VERTI.. 292161-4-TE                     41.91 mm   16.51 mm  90      
-J10        NANO-FIT 10531.. HEADER-8X2_8     1053111102-MOLEX                55.25 mm   39.44 mm  180     
-J11        9-338069-0       HEADER_10X2/SM   TYCO-9-338069-0                 109.80 mm  44.15 mm  0       
-J12        98414-G06-10LF   HEADER_5X2       FCI-98414-G-06-10               43.99 mm   49.25 mm  0       
-J13        MICRO-FIT 4304.. HEADER_5X2_8     430450813-MOLEX                 95.89 mm   75.24 mm  180     
-J14        NANO-FIT 10531.. HEADER-8X2_10    1053121104-MOLEX                34.93 mm   76.20 mm  180     
-J15        NANO-FIT 10531.. HEADER-8X2_12    1053121106-MOLEX                64.77 mm   76.20 mm  180     
-J16        68711414522      ZIF_FPC_14_05    68711414522-WE                  36.90 mm   -111.90.. 0       
-J17        61200621621      HEADER-3X2       61200621621-WE                  1.27 mm    29.85 mm  270     
-J18        CT-2-VERT        AMP-CT-2-VERTI.. 292161-2-TE                     1.27 mm    14.74 mm  90      
-J19        CT-2-VERT        AMP-CT-2-VERTI.. 292161-2-TE                     133.53 mm  13.34 mm  270     
+J16        68711414522      ZIF_FPC_14_05    68711414522-WE                  36.90 mm   -110.97.. 0       
 L1         DLW32SH101XF2L   CHOKE_DLW32SH1.. DLW32S_MURATA                   40.64 mm   57.79 mm  180     
-L2         BLM18BD102       L_1              SMD0603                         66.04 mm   59.69 mm  90      
-L4         8.2uH            L                SRR4528A-BOURNS                 99.70 mm   -0.64 mm  180     
+L4         8.2uH            L                SRR4528A-BOURNS                 99.69 mm   -0.64 mm  180     
 L5         BLM18BD102       L_1              SMD0603                         46.36 mm   55.25 mm  90      
 L6         BLM18BD102       L_1              SMD0603                         46.36 mm   45.09 mm  90      
 L7         8.2uH            L                SRR4528A-BOURNS                 120.65 mm  -0.64 mm  180     
@@ -173,19 +132,13 @@ R23        100R             R                SMD1206                         49.
 R24        100R             R                SMD1206                         48.90 mm   82.55 mm  270     
 R25        100R             R                SMD1206                         118.11 mm  32.39 mm  270     
 R26        100R             R                SMD1206                         65.41 mm   69.22 mm  90      
-R27        200R             R                SMD0603                         58.42 mm   66.68 mm  270     
 R28        330R             R                SMD0603                         62.87 mm   69.85 mm  90      
-R29        200R             R                SMD0603                         60.33 mm   62.87 mm  270     
 R30        1K               R                SMD0603                         54.61 mm   69.85 mm  90      
 R31        100R             R                SMD1206                         118.75 mm  45.09 mm  90      
-R32        4K7              R                SMD0603                         62.23 mm   62.87 mm  90      
 R33        330R             R                SMD0603                         77.47 mm   70.49 mm  270     
 R34        100R             R                SMD1206                         121.92 mm  45.09 mm  90      
-R35        330R             R                SMD0603                         73.66 mm   62.87 mm  90      
 R36        1K               R                SMD0603                         71.12 mm   70.49 mm  90      
 R37        330R             R                SMD0603                         52.71 mm   69.85 mm  270     
-R38        100R             R                SMD1206                         46.99 mm   64.14 mm  270     
-R39        330R             R                SMD0603                         49.53 mm   62.87 mm  90      
 R40        1K               R                SMD0603                         44.45 mm   69.85 mm  90      
 R41        330R             R                SMD0603                         15.24 mm   52.07 mm  90      
 R42        330              R0603            SMD0603                         18.42 mm   55.88 mm  90      
@@ -214,7 +167,6 @@ R65        100R             R                SMD1206                         112
 R66        560R             R                SMD1206                         100.97 mm  69.22 mm  270     
 R67        100R             R                SMD1206                         109.22 mm  45.09 mm  270     
 R68        560R             R                SMD1206                         92.71 mm   69.22 mm  270     
-R69        4K7              R                SMD0603                         100.33 mm  62.87 mm  90      
 R70        4K7              R                SMD0603                         107.32 mm  49.53 mm  270     
 R71        100R             R                SMD1206                         115.57 mm  45.09 mm  270     
 R72        560R             R                SMD1206                         95.89 mm   69.22 mm  270     
@@ -227,7 +179,6 @@ R78        100R             R                SMD1206                         130
 R79        47R              R                SMD0603                         103.51 mm  80.01 mm  270     
 R80        100R             R                SMD1206                         104.14 mm  45.09 mm  270     
 R81        560R             R                SMD1206                         89.54 mm   69.22 mm  270     
-R82        4K7              R                SMD0603                         93.98 mm   62.87 mm  90      
 R83        1K               R                SMD0603                         39.60 mm   -70.47 mm 90      
 R84        1K               R                SMD0603                         26.26 mm   -70.46 mm 90      
 R85        33K              R                SMD0603                         37.69 mm   -70.47 mm 270     
@@ -281,41 +232,28 @@ TVS3       PESD5V0C1ULS-QYL SMBJ_1           SOD882BD-1_2                    94.
 TVS4       PESD5V0C1ULS-QYL SMBJ_1           SOD882BD-1_2                    96.52 mm   79.38 mm  270     
 TVS5       PESD5V0C1ULS-QYL SMBJ_1           SOD882BD-1_2                    87.00 mm   71.76 mm  270     
 TVS6       PESD5V0C1ULS-QYL SMBJ_1           SOD882BD-1_2                    69.22 mm   89.54 mm  90      
-U1         MCP6002T-I/MS    MCP6002          SOG.65M/8/WG4.9/L3.00           74.93 mm   87.63 mm  270     
-U2         TJA1050T         TJA1050          SO8                             30.48 mm   55.88 mm  270     
-U3         TCMT1103         TCMT1101         SSOP4                           53.98 mm   83.82 mm  180     
-U4         TCMT1103         TCMT1101         SSOP4                           69.85 mm   83.82 mm  180     
-U5         TCMT1103         TCMT1101         SSOP4                           90.81 mm   65.41 mm  180     
-U6         TCMT1103         TCMT1101         SSOP4                           41.28 mm   89.54 mm  180     
-U7         TCMT1103         TCMT1101         SSOP4                           45.09 mm   89.54 mm  0       
-U8         TCMT1103         TCMT1101         SSOP4                           80.65 mm   65.41 mm  0       
-U9         TCMT1103         TCMT1101         SSOP4                           48.90 mm   89.54 mm  180     
-U10        TCMT1103         TCMT1101         SSOP4                           69.22 mm   65.41 mm  0       
-U11        TCMT1103         TCMT1101         SSOP4                           55.88 mm   65.41 mm  0       
-U12        74LVC1G17GV      SN74HCS125PWR_1  SOT753                          56.52 mm   69.22 mm  270     
-U13        TCMT1103         TCMT1101         SSOP4                           65.41 mm   65.41 mm  180     
-U14        TCMT1103         TCMT1101         SSOP4                           85.73 mm   65.41 mm  0       
-U15        TCMT1103         TCMT1101         SSOP4                           76.84 mm   65.41 mm  180     
-U16        74LVC1G17GV      SN74HCS125PWR_1  SOT753                          73.03 mm   69.22 mm  270     
-U17        74LVC1G17GV      SN74HCS125PWR_1  SOT753                          46.36 mm   69.22 mm  270     
-U18        TCMT1103         TCMT1101         SSOP4                           43.82 mm   65.41 mm  0       
-U19        TCMT1103         TCMT1101         SSOP4                           52.07 mm   65.41 mm  180     
-U20        TCMT1103         TCMT1101         SSOP4                           9.53 mm    52.07 mm  90      
-U21        PCA9600D         PCA9600D         SO8                             19.05 mm   48.90 mm  270     
+U1         MCP6002T-I/MS    MCP6002          SOG.65M/8/WG4.9/L3.00           77.38 mm   88.60 mm  270     
+U2         TJA1050T         TJA1050          SO8                             33.73 mm   57.79 mm  270     
+U3         TCMT1103         TCMT1101         SSOP4                           53.34 mm   87.00 mm  180     
+U4         TCMT1103         TCMT1101         SSOP4                           69.22 mm   87.00 mm  180     
+U6         TCMT1103         TCMT1101         SSOP4                           40.64 mm   92.71 mm  180     
+U7         TCMT1103         TCMT1101         SSOP4                           45.72 mm   86.36 mm  0       
+U9         TCMT1103         TCMT1101         SSOP4                           48.26 mm   92.71 mm  180     
+U12        74LVC1G17GV      SN74HCS125PWR_1  SOT753                          57.81 mm   70.17 mm  270     
+U16        74LVC1G17GV      SN74HCS125PWR_1  SOT753                          74.32 mm   70.17 mm  270     
+U17        74LVC1G17GV      SN74HCS125PWR_1  SOT753                          47.65 mm   70.17 mm  270     
+U20        TCMT1103         TCMT1101         SSOP4                           12.70 mm   52.71 mm  90      
+U21        PCA9600D         PCA9600D         SO8                             22.30 mm   50.80 mm  270     
 U22        A3984SLPTR-T     A3984            TSOP65P640X120-25M              27.31 mm   16.51 mm  270     
-U23        TCMT1103         TCMT1101         SSOP4                           121.92 mm  55.25 mm  0       
-U24        TCMT1103         TCMT1101         SSOP4                           127.00 mm  55.25 mm  180     
-U25        P78E09-1000      78XX/SIP_3       P78E05-1000-CUI                 109.86 mm  0.64 mm   0       
-U26        UA78M33CKVURG3   78XX/SIP_3       DPAK-STD                        121.29 mm  15.24 mm  180     
-U27        MC7805BD2TR4G    78XX/SIP_2       PG-TO263-2-1                    106.68 mm  20.96 mm  0       
-U28        TSR 1-2450E      78XX/SIP_3       TSR-1E-TRACO                    130.81 mm  0.64 mm   180     
-U29        TCMT1103         TCMT1101         SSOP4                           103.51 mm  65.41 mm  180     
-U30        TCMT1103         TCMT1101         SSOP4                           108.59 mm  55.25 mm  180     
-U31        TCMT1103         TCMT1101         SSOP4                           114.94 mm  55.25 mm  180     
-U32        TCMT1103         TCMT1101         SSOP4                           127.00 mm  33.66 mm  0       
-U33        TCMT1103         TCMT1101         SSOP4                           97.16 mm   65.41 mm  180     
+U23        TCMT1103         TCMT1101         SSOP4                           122.56 mm  52.07 mm  0       
+U24        TCMT1103         TCMT1101         SSOP4                           126.37 mm  58.42 mm  180     
+U26        UA78M33CKVURG3   78XX/SIP_3       DPAK-STD                        121.29 mm  19.81 mm  180     
+U27        MC7805BD2TR4G    78XX/SIP_2       PG-TO263-2-1                    106.68 mm  19.86 mm  0       
+U30        TCMT1103         TCMT1101         SSOP4                           107.95 mm  58.42 mm  180     
+U31        TCMT1103         TCMT1101         SSOP4                           114.30 mm  58.42 mm  180     
+U32        TCMT1103         TCMT1101         SSOP4                           127.64 mm  30.48 mm  0       
 U34        CPC1017N         CPC1017          CPC1017N-CLARE                  87.00 mm   78.74 mm  0       
-U35        LM317D2T-TR      LM317D2T_0       PG-TO263-2-1                    88.90 mm   91.44 mm  0       
-U36        SAME51J20A-A     SAME51J20A-A_F.. QUAD.50M/64/WG12.00             18.42 mm   1.91 mm   180     
-U37        TCMT1103         TCMT1101         SSOP4                           9.53 mm    47.63 mm  90      
+U35        LM317D2T-TR      LM317D2T_0       PG-TO263-2-1                    88.90 mm   90.34 mm  0       
+U36        SAME51J20A-A     SAME51J20A-A_F.. QUAD.50M/64/WG12.00             22.17 mm   -3.83 mm  180     
+U37        TCMT1103         TCMT1101         SSOP4                           12.70 mm   48.26 mm  90      
 XT1        32.768 kHz       XTAL_32768_12... ECX-16                          17.78 mm   4.45 mm   0       
